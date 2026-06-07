@@ -1,0 +1,26 @@
+# Dados processados (gerados pelo pipeline — não versionados)
+data/bronze/
+data/silver/
+data/gold/
+
+# Bancos de dados locais
+*.db
+*.wal
+*.db-wal
+*.db-shm
+
+# Parquet e outros formatos binários de dados
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
